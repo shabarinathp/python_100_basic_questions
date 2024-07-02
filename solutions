@@ -1,0 +1,1064 @@
+Certainly! Here are the solutions to the 100 Python questions provided:
+
+### If Statements
+
+1. **Check if `x` is greater than 10:**
+
+```python
+x = 12
+if x > 10:
+    print("x is greater than 10")
+```
+
+2. **Check if `y` is less than or equal to 5:**
+
+```python
+y = 3
+if y <= 5:
+    print("y is less than or equal to 5")
+```
+
+3. **Check if `name` is equal to "Alice":**
+
+```python
+name = "Alice"
+if name == "Alice":
+    print("Hello, Alice")
+```
+
+4. **Check if `num` is even:**
+
+```python
+num = 4
+if num % 2 == 0:
+    print("num is even")
+```
+
+5. **Check if `z` is positive:**
+
+```python
+z = 1
+if z > 0:
+    print("z is positive")
+```
+
+6. **Check if `my_list` is not empty:**
+
+```python
+my_list = [1, 2, 3]
+if my_list:
+    print("my_list is not empty")
+```
+
+7. **Check if `a` is between 1 and 100:**
+
+```python
+a = 50
+if 1 <= a <= 100:
+    print("a is between 1 and 100")
+```
+
+8. **Check if `password` contains "@":**
+
+```python
+password = "my@password"
+if "@" in password:
+    print("password contains '@'")
+```
+
+9. **Check if `b` is a multiple of 5:**
+
+```python
+b = 25
+if b % 5 == 0:
+    print("b is a multiple of 5")
+```
+
+10. **Check if `s` starts with "Hello":**
+
+```python
+s = "Hello, world"
+if s.startswith("Hello"):
+    print("s starts with 'Hello'")
+```
+
+### Nested If Statements
+
+11. **Check if `x` is greater than 10 and `y` is less than 5:**
+
+```python
+x = 12
+y = 3
+if x > 10:
+    if y < 5:
+        print("x is greater than 10 and y is less than 5")
+```
+
+12. **Check if `age` is between 18 and 65 and `citizen` is True:**
+
+```python
+age = 30
+citizen = True
+if 18 <= age <= 65:
+    if citizen:
+        print("Eligible")
+```
+
+13. **Check if `score` is greater than 90 and `attendance` is greater than 80:**
+
+```python
+score = 95
+attendance = 85
+if score > 90:
+    if attendance > 80:
+        print("Excellent performance")
+```
+
+14. **Check if `temp` is below 0 and `weather` is "snowy":**
+
+```python
+temp = -5
+weather = "snowy"
+if temp < 0:
+    if weather == "snowy":
+        print("Cold and snowy")
+```
+
+15. **Check if `grade` is "A" and `passed` is True:**
+
+```python
+grade = "A"
+passed = True
+if grade == "A":
+    if passed:
+        print("Top performer")
+```
+
+### If-Else Statements
+
+16. **Check if `x` is greater than 10:**
+
+```python
+x = 8
+if x > 10:
+    print("x is greater than 10")
+else:
+    print("x is not greater than 10")
+```
+
+17. **Check if `y` is less than or equal to 5:**
+
+```python
+y = 7
+if y <= 5:
+    print("y is less than or equal to 5")
+else:
+    print("y is greater than 5")
+```
+
+18. **Check if `name` is equal to "Alice":**
+
+```python
+name = "Bob"
+if name == "Alice":
+    print("Hello, Alice")
+else:
+    print("You are not Alice")
+```
+
+19. **Check if `num` is even:**
+
+```python
+num = 7
+if num % 2 == 0:
+    print("num is even")
+else:
+    print("num is odd")
+```
+
+20. **Check if `z` is positive:**
+
+```python
+z = -1
+if z > 0:
+    print("z is positive")
+else:
+    print("z is not positive")
+```
+
+### If-Elif-Else Statements
+
+21. **Check if `x` is positive, negative, or zero:**
+
+```python
+x = 0
+if x > 0:
+    print("x is positive")
+elif x < 0:
+    print("x is negative")
+else:
+    print("x is zero")
+```
+
+22. **Check if `name` is "Arun", "Boby", or "Chandra":**
+
+```python
+name = input("Enter Name : ")
+if name == "Alice":
+    print("Hello, Arun")
+elif name == "Boby":
+    print("Hello, Boby")
+elif name == "Chandra":
+    print("Hello, Chandra")
+else:
+    print("Who are you?")
+```
+
+23. **Check if `num` is less than 0, between 0 and 100, or greater than 100:**
+
+```python
+num = 50
+if num < 0:
+    print("num is less than 0")
+elif 0 <= num <= 100:
+    print("num is between 0 and 100")
+else:
+    print("num is greater than 100")
+```
+
+24. **Check if `grade` is "A", "B", "C", or "F":**
+
+```python
+grade = "B"
+if grade == "A":
+    print("Excellent")
+elif grade == "B":
+    print("Good")
+elif grade == "C":
+    print("Average")
+elif grade == "F":
+    print("Fail")
+else:
+    print("Invalid grade")
+```
+
+25. **Check if `age` is a child (0-12), a teenager (13-19), or an adult (20+):**
+
+```python
+age = 15
+if 0 <= age <= 12:
+    print("Child")
+elif 13 <= age <= 19:
+    print("Teenager")
+else:
+    print("Adult")
+```
+
+### While Loops
+
+26. **Print numbers from 1 to 10:**
+
+```python
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+```
+
+27. **Print the first 10 even numbers:**
+
+```python
+i = 1
+count = 0
+while count < 10:
+    if i % 2 == 0:
+        print(i)
+        count += 1
+    i += 1
+```
+
+28. **Print the first 10 odd numbers:**
+
+```python
+i = 1
+count = 0
+while count < 10:
+    if i % 2 != 0:
+        print(i)
+        count += 1
+    i += 1
+```
+
+29. **Print the multiplication table of 5:**
+
+```python
+i = 1
+while i <= 10:
+    print(f"5 x {i} = {5 * i}")
+    i += 1
+```
+
+30. **Print the Fibonacci sequence up to the 10th term:**
+
+```python
+a, b = 0, 1
+count = 0
+while count < 10:
+    print(a)
+    a, b = b, a + b
+    count += 1
+```
+
+### While Loops with Condition
+
+31. **Continue until the user enters "stop":**
+
+```python
+user_input = ""
+while user_input.lower() != "stop":
+    user_input = input("Enter something (type 'stop' to end): ")
+```
+
+32. **Print the sum of numbers from 1 to 100:**
+
+```python
+i = 1
+total = 0
+while i <= 100:
+    total += i
+    i += 1
+print("Sum:", total)
+```
+
+33. **Print all the characters of a string `s`:**
+
+```python
+s = "hello"
+i = 0
+while i < len(s):
+    print(s[i])
+    i += 1
+```
+
+34. **Find the factorial of a number `n`:**
+
+```python
+n = 5
+factorial = 1
+i = 1
+while i <= n:
+    factorial *= i
+    i += 1
+print("Factorial:", factorial)
+```
+
+35. **Print all the elements of a list `my_list`:**
+
+```python
+my_list = [1, 2, 3, 4, 5]
+i = 0
+while i < len(my_list):
+    print(my_list[i])
+    i += 1
+```
+
+### While Loop with Break
+
+36. **Break when a number is greater than 50:**
+
+```python
+i = 1
+while True:
+    if i > 50:
+        break
+    print(i)
+    i += 1
+```
+
+37. **Break when a string `s` contains the character "a":**
+
+```python
+s = "hello world"
+i = 0
+while i < len(s):
+    if s[i] == 'a':
+        break
+    print(s[i])
+    i += 1
+
+
+```
+
+38. **Break when the sum of numbers exceeds 100:**
+
+```python
+i = 1
+total = 0
+while True:
+    total += i
+    if total > 100:
+        break
+    i += 1
+print("Total:", total)
+```
+
+39. **Break when the user inputs "exit":**
+
+```python
+while True:
+    user_input = input("Type 'exit' to end: ")
+    if user_input.lower() == "exit":
+        break
+```
+
+40. **Break when a random number is equal to 7:**
+
+```python
+import random
+while True:
+    num = random.randint(1, 10)
+    print(num)
+    if num == 7:
+        break
+```
+
+### For Loops
+
+41. **Print numbers from 1 to 10:**
+
+```python
+for i in range(1, 11):
+    print(i)
+```
+
+42. **Print the first 10 even numbers:**
+
+```python
+for i in range(2, 21, 2):
+    print(i)
+```
+
+43. **Print the first 10 odd numbers:**
+
+```python
+for i in range(1, 20, 2):
+    print(i)
+```
+
+44. **Print the multiplication table of 5:**
+
+```python
+for i in range(1, 11):
+    print(f"5 x {i} = {5 * i}")
+```
+
+45. **Print the Fibonacci sequence up to the 10th term:**
+
+```python
+a, b = 0, 1
+for _ in range(10):
+    print(a)
+    a, b = b, a + b
+```
+
+### For Loops with Lists
+
+46. **Print all the elements of a list `my_list`:**
+
+```python
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+```
+
+47. **Print the square of each number in a list `numbers`:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    print(num ** 2)
+```
+
+48. **Print all the strings in a list `strings` in uppercase:**
+
+```python
+strings = ["hello", "world"]
+for string in strings:
+    print(string.upper())
+```
+
+49. **Print the length of each string in a list `words`:**
+
+```python
+words = ["hello", "world"]
+for word in words:
+    print(len(word))
+```
+
+50. **Print the cumulative sum of numbers in a list `numbers`:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+cumulative_sum = 0
+for num in numbers:
+    cumulative_sum += num
+    print(cumulative_sum)
+```
+
+### For Loops with Range
+
+51. **Print numbers from 1 to 10 using `range`:**
+
+```python
+for i in range(1, 11):
+    print(i)
+```
+
+52. **Print the first 10 even numbers using `range`:**
+
+```python
+for i in range(2, 21, 2):
+    print(i)
+```
+
+53. **Print the first 10 odd numbers using `range`:**
+
+```python
+for i in range(1, 20, 2):
+    print(i)
+```
+
+54. **Print numbers from 10 to 1 using `range`:**
+
+```python
+for i in range(10, 0, -1):
+    print(i)
+```
+
+55. **Print every third number from 0 to 30 using `range`:**
+
+```python
+for i in range(0, 31, 3):
+    print(i)
+```
+
+### For Loops with Dictionaries
+
+56. **Print all the keys of a dictionary `my_dict`:**
+
+```python
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key in my_dict:
+    print(key)
+```
+
+57. **Print all the values of a dictionary `my_dict`:**
+
+```python
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for value in my_dict.values():
+    print(value)
+```
+
+58. **Print all the key-value pairs of a dictionary `my_dict`:**
+
+```python
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print(key, value)
+```
+
+59. **Print the sum of all the values in a dictionary `my_dict`:**
+
+```python
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+total = sum(my_dict.values())
+print("Sum:", total)
+```
+
+60. **Print the keys of a dictionary `my_dict` whose values are greater than 10:**
+
+```python
+my_dict = {'a': 5, 'b': 15, 'c': 20}
+for key, value in my_dict.items():
+    if value > 10:
+        print(key)
+```
+
+### Nested For Loops
+
+61. **Print a multiplication table (1-10):**
+
+```python
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f"{i} x {j} = {i * j}")
+    print()
+```
+
+62. **Print all pairs of numbers from two lists `list1` and `list2`:**
+
+```python
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+for i in list1:
+    for j in list2:
+        print(i, j)
+```
+
+63. **Print a pattern of stars:**
+
+```python
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end="")
+    print()
+```
+
+64. **Print the transpose of a 3x3 matrix:**
+
+```python
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for i in range(3):
+    for j in range(3):
+        print(matrix[j][i], end=" ")
+    print()
+```
+
+65. **Calculate the product of two matrices:**
+
+```python
+matrix1 = [[1, 2], [3, 4]]
+matrix2 = [[2, 0], [1, 2]]
+result = [[0, 0], [0, 0]]
+for i in range(len(matrix1)):
+    for j in range(len(matrix2[0])):
+        for k in range(len(matrix2)):
+            result[i][j] += matrix1[i][k] * matrix2[k][j]
+for r in result:
+    print(r)
+```
+
+### Try-Except Blocks
+
+66. **Handle division by zero:**
+
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+```
+
+67. **Handle invalid input from the user:**
+
+```python
+try:
+    num = int(input("Enter a number: "))
+except ValueError:
+    print("Invalid input")
+```
+
+68. **Handle file not found error:**
+
+```python
+try:
+    with open('nonexistent_file.txt', 'r') as file:
+        content = file.read()
+except FileNotFoundError:
+    print("File not found")
+```
+
+69. **Handle key error in a dictionary:**
+
+```python
+my_dict = {'a': 1, 'b': 2}
+try:
+    print(my_dict['c'])
+except KeyError:
+    print("Key not found")
+```
+
+70. **Handle index error in a list:**
+
+```python
+my_list = [1, 2, 3]
+try:
+    print(my_list[5])
+except IndexError:
+    print("Index out of range")
+```
+
+### Try-Except with Else
+
+71. **`try-except-else` block where `else` prints "No exceptions occurred":**
+
+```python
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+else:
+    print("No exceptions occurred")
+```
+
+72. **Read from a file and print its content if no exception occurs:**
+
+```python
+try:
+    with open('example.txt', 'r') as file:
+        content = file.read()
+except FileNotFoundError:
+    print("File not found")
+else:
+    print(content)
+```
+
+73. **Divide two numbers and print the result if no exception occurs:**
+
+```python
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+else:
+    print("Result:", result)
+```
+
+74. **Add a key-value pair to a dictionary and print the dictionary if no exception occurs:**
+
+```python
+my_dict = {'a': 1, 'b': 2}
+try:
+    my_dict['c'] = 3
+except KeyError:
+    print("Key error")
+else:
+    print(my_dict)
+```
+
+75. **Append an element to a list and print the list if no exception occurs:**
+
+```python
+my_list = [1, 2, 3]
+try:
+    my_list.append(4)
+except Exception as e:
+    print("An error occurred:", e)
+else:
+    print(my_list)
+```
+
+### Try-Except with Finally
+
+76. **`try-except-finally` block where `finally` prints "Execution completed":**
+
+```python
+try:
+    result
+
+ = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Execution completed")
+```
+
+77. **Read from a file and close it in the `finally` block:**
+
+```python
+try:
+    file = open('example.txt', 'r')
+    content = file.read()
+except FileNotFoundError:
+    print("File not found")
+finally:
+    if 'file' in locals():
+        file.close()
+    print("File closed")
+```
+
+78. **Divide two numbers and print the result, then print "Operation done" in the `finally` block:**
+
+```python
+try:
+    result = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Operation done")
+```
+
+79. **Open a file and handle file not found error, ensure file is closed in the `finally` block:**
+
+```python
+try:
+    file = open('nonexistent_file.txt', 'r')
+    content = file.read()
+except FileNotFoundError:
+    print("File not found")
+finally:
+    if 'file' in locals():
+        file.close()
+    print("File closed")
+```
+
+80. **Attempt to convert a string to an integer and handle value error, print "Done" in the `finally` block:**
+
+```python
+try:
+    num = int("abc")
+except ValueError:
+    print("Invalid input")
+finally:
+    print("Done")
+```
+
+### Real-World Scenarios
+
+81. **Check if a number is positive, negative, or zero using `if-else`:**
+
+```python
+num = -10
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+```
+
+82. **Find the maximum of three numbers using `if-else`:**
+
+```python
+a, b, c = 10, 20, 30
+if a >= b and a >= c:
+    print("Maximum is", a)
+elif b >= a and b >= c:
+    print("Maximum is", b)
+else:
+    print("Maximum is", c)
+```
+
+83. **Print the sum of all numbers in a list using a `for` loop:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+total = 0
+for num in numbers:
+    total += num
+print("Sum:", total)
+```
+
+84. **Print the reverse of a string using a `for` loop:**
+
+```python
+s = "hello"
+reversed_string = ""
+for char in s:
+    reversed_string = char + reversed_string
+print("Reversed:", reversed_string)
+```
+
+85. **Count the number of vowels in a string using a `for` loop:**
+
+```python
+s = "hello"
+vowels = "aeiouAEIOU"
+count = 0
+for char in s:
+    if char in vowels:
+        count += 1
+print("Number of vowels:", count)
+```
+
+### Real-World Scenarios
+
+86. **Check if a given year is a leap year using `if-else`:**
+
+```python
+year = 2020
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
+```
+
+87. **Find the factorial of a number using a `while` loop:**
+
+```python
+n = 5
+factorial = 1
+i = 1
+while i <= n:
+    factorial *= i
+    i += 1
+print("Factorial:", factorial)
+```
+
+88. **Calculate the sum of digits of a number using a `while` loop:**
+
+```python
+num = 1234
+sum_of_digits = 0
+while num > 0:
+    digit = num % 10
+    sum_of_digits += digit
+    num = num // 10
+print("Sum of digits:", sum_of_digits)
+```
+
+89. **Reverse a string using a `for` loop:**
+
+```python
+s = "hello"
+reversed_string = ""
+for char in s:
+    reversed_string = char + reversed_string
+print("Reversed:", reversed_string)
+```
+
+90. **Count the frequency of each character in a string using a `for` loop:**
+
+```python
+s = "hello"
+frequency = {}
+for char in s:
+    if char in frequency:
+        frequency[char] += 1
+    else:
+        frequency[char] = 1
+print("Frequency:", frequency)
+```
+
+### Complex Tasks
+
+91. **Print the Fibonacci sequence up to `n` terms using `while` and `if`:**
+
+```python
+n = 10
+a, b = 0, 1
+count = 0
+while count < n:
+    print(a)
+    a, b = b, a + b
+    count += 1
+```
+
+92. **Find the largest element in a list using a `for` loop:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+max_num = numbers[0]
+for num in numbers:
+    if num > max_num:
+        max_num = num
+print("Largest number:", max_num)
+```
+
+93. **Remove duplicates from a list using a `for` loop:**
+
+```python
+numbers = [1, 2, 3, 1, 2, 3, 4, 5]
+unique_numbers = []
+for num in numbers:
+    if num not in unique_numbers:
+        unique_numbers.append(num)
+print("Unique numbers:", unique_numbers)
+```
+
+94. **Merge two dictionaries using a `for` loop:**
+
+```python
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 3, 'c': 4}
+merged_dict = dict1.copy()
+for key, value in dict2.items():
+    merged_dict[key] = value
+print("Merged dictionary:", merged_dict)
+```
+
+95. **Find the common elements in two lists using a nested `for` loop:**
+
+```python
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6, 7]
+common_elements = []
+for i in list1:
+    for j in list2:
+        if i == j:
+            common_elements.append(i)
+print("Common elements:", common_elements)
+```
+
+### Data Handling
+
+96. **Read integers from a file and print their sum using `try-except`:**
+
+```python
+try:
+    with open('numbers.txt', 'r') as file:
+        total = 0
+        for line in file:
+            total += int(line.strip())
+    print("Sum:", total)
+except FileNotFoundError:
+    print("File not found")
+except ValueError:
+    print("Invalid number in file")
+```
+
+97. **Write a list of strings to a file using `try-except`:**
+
+```python
+strings = ["Hello", "World"]
+try:
+    with open('output.txt', 'w') as file:
+        for string in strings:
+            file.write(string + "\n")
+    print("Write successful")
+except IOError:
+    print("An error occurred while writing to the file")
+```
+
+98. **Handle multiple exceptions (e.g., division by zero and invalid input) using `try-except`:**
+
+```python
+try:
+    a = int(input("Enter a number: "))
+    b = int(input("Enter another number: "))
+    result = a / b
+    print("Result:", result)
+except ValueError:
+    print("Invalid input")
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+```
+
+99. **Read a CSV file and print its contents using `for` loop:**
+
+```python
+import csv
+try:
+    with open('data.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            print(row)
+except FileNotFoundError:
+    print("File not found")
+```
+
+100. **Calculate the average of numbers in a list and handle empty list exception using `try-except`:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+try:
+    if not numbers:
+        raise ValueError("List is empty")
+    average = sum(numbers) / len(numbers)
+    print("Average:", average)
+except ValueError as e:
+    print(e)
+```
+
+These solutions cover the basic to intermediate Python concepts using `if` statements, loops, and error handling.
