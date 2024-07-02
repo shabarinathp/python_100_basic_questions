@@ -1,0 +1,161 @@
+100 Python questions covering `if` statements, `while` loops, `for` loops, and `try` blocks:
+
+### If Statements
+
+1. Write an `if` statement that checks if a variable `x` is greater than 10.
+2. Write an `if` statement that checks if a variable `y` is less than or equal to 5.
+3. Write an `if` statement that checks if a string `name` is equal to "Alice".
+4. Write an `if` statement that checks if a number `num` is even.
+5. Write an `if` statement that checks if a variable `z` is positive.
+6. Write an `if` statement that checks if a list `my_list` is not empty.
+7. Write an `if` statement that checks if a variable `a` is between 1 and 100.
+8. Write an `if` statement that checks if a string `password` contains "@".
+9. Write an `if` statement that checks if a number `b` is a multiple of 5.
+10. Write an `if` statement that checks if a string `s` starts with "Hello".
+
+### Nested If Statements
+
+11. Write a nested `if` statement to check if `x` is greater than 10 and if `y` is less than 5.
+12. Write a nested `if` statement to check if a variable `age` is between 18 and 65 and if `citizen` is True.
+13. Write a nested `if` statement to check if `score` is greater than 90 and if `attendance` is greater than 80.
+14. Write a nested `if` statement to check if a variable `temp` is below 0 and if `weather` is "snowy".
+15. Write a nested `if` statement to check if a variable `grade` is "A" and if `passed` is True.
+
+### If-Else Statements
+
+16. Write an `if-else` statement to check if a variable `x` is greater than 10.
+17. Write an `if-else` statement to check if a variable `y` is less than or equal to 5.
+18. Write an `if-else` statement to check if a string `name` is equal to "Alice".
+19. Write an `if-else` statement to check if a number `num` is even.
+20. Write an `if-else` statement to check if a variable `z` is positive.
+
+### If-Elif-Else Statements
+
+21. Write an `if-elif-else` statement to check if a variable `x` is positive, negative, or zero.
+22. Write an `if-elif-else` statement to check if a string `name` is "Arun", "Boby", or "Chandra".
+23. Write an `if-elif-else` statement to check if a number `num` is less than 0, between 0 and 100, or greater than 100.
+24. Write an `if-elif-else` statement to check if a variable `grade` is "A", "B", "C", or "F".
+25. Write an `if-elif-else` statement to check if a variable `age` is a child (0-12), a teenager (13-19), or an adult (20+).
+
+### While Loops
+
+26. Write a `while` loop that prints numbers from 1 to 10.
+27. Write a `while` loop that prints the first 10 even numbers.
+28. Write a `while` loop that prints the first 10 odd numbers.
+29. Write a `while` loop that prints the multiplication table of 5.
+30. Write a `while` loop that prints the Fibonacci sequence up to the 10th term.
+
+### While Loops with Condition
+
+31. Write a `while` loop that continues until the user enters "stop".
+32. Write a `while` loop that prints the sum of numbers from 1 to 100.
+33. Write a `while` loop that prints all the characters of a string `s`.
+34. Write a `while` loop that finds the factorial of a number `n`.
+35. Write a `while` loop that prints all the elements of a list `my_list`.
+
+### While Loop with Break
+
+36. Write a `while` loop that breaks when a number is greater than 50.
+37. Write a `while` loop that breaks when a string `s` contains the character "a".
+38. Write a `while` loop that breaks when the sum of numbers exceeds 100.
+39. Write a `while` loop that breaks when the user inputs "exit".
+40. Write a `while` loop that breaks when a random number is equal to 7.
+
+### For Loops
+
+41. Write a `for` loop that prints numbers from 1 to 10.
+42. Write a `for` loop that prints the first 10 even numbers.
+43. Write a `for` loop that prints the first 10 odd numbers.
+44. Write a `for` loop that prints the multiplication table of 5.
+45. Write a `for` loop that prints the Fibonacci sequence up to the 10th term.
+
+### For Loops with Lists
+
+46. Write a `for` loop that prints all the elements of a list `my_list`.
+47. Write a `for` loop that prints the square of each number in a list `numbers`.
+48. Write a `for` loop that prints all the strings in a list `strings` in uppercase.
+49. Write a `for` loop that prints the length of each string in a list `words`.
+50. Write a `for` loop that prints the cumulative sum of numbers in a list `numbers`.
+
+### For Loops with Range
+
+51. Write a `for` loop that prints numbers from 1 to 10 using `range`.
+52. Write a `for` loop that prints the first 10 even numbers using `range`.
+53. Write a `for` loop that prints the first 10 odd numbers using `range`.
+54. Write a `for` loop that prints numbers from 10 to 1 using `range`.
+55. Write a `for` loop that prints every third number from 0 to 30 using `range`.
+
+### For Loops with Dictionaries
+
+56. Write a `for` loop that prints all the keys of a dictionary `my_dict`.
+57. Write a `for` loop that prints all the values of a dictionary `my_dict`.
+58. Write a `for` loop that prints all the key-value pairs of a dictionary `my_dict`.
+59. Write a `for` loop that prints the sum of all the values in a dictionary `my_dict`.
+60. Write a `for` loop that prints the keys of a dictionary `my_dict` whose values are greater than 10.
+
+### Nested For Loops
+
+61. Write a nested `for` loop to print a multiplication table (1-10).
+62. Write a nested `for` loop to print all pairs of numbers from two lists `list1` and `list2`.
+63. Write a nested `for` loop to print a pattern of stars.
+64. Write a nested `for` loop to print the transpose of a 3x3 matrix.
+65. Write a nested `for` loop to calculate the product of two matrices.
+
+### Try-Except Blocks
+
+66. Write a `try-except` block to handle division by zero.
+67. Write a `try-except` block to handle invalid input from the user.
+68. Write a `try-except` block to handle file not found error.
+69. Write a `try-except` block to handle key error in a dictionary.
+70. Write a `try-except` block to handle index error in a list.
+
+### Try-Except with Else
+
+71. Write a `try-except-else` block where `else` prints "No exceptions occurred".
+72. Write a `try-except-else` block to read from a file and print its content if no exception occurs.
+73. Write a `try-except-else` block to divide two numbers and print the result if no exception occurs.
+74. Write a `try-except-else` block to add a key-value pair to a dictionary and print the dictionary if no exception occurs.
+75. Write a `try-except-else` block to append an element to a list and print the list if no exception occurs.
+
+### Try-Except with Finally
+
+76. Write a `try-except-finally` block where `finally` prints "Execution completed".
+77. Write a `try-except-finally` block to read from a file and close it in `finally`.
+78. Write a `try-except-finally` block to divide two numbers and print "End of operation" in `finally`.
+79. Write a `try-except-finally` block to open a file and always close it in `finally`.
+80. Write a `try-except-finally` block to modify a list and print "Modification done" in `finally`.
+
+### Combined Topics
+
+81. Write a program using `if` and `while` to print the first 10 Fibonacci numbers.
+82. Write a program using `if` and `for` to print all prime numbers between 1 and 100.
+83. Write a program using `if` and `try-except` to handle invalid input for division.
+84. Write a program using `while` and `try-except` to keep asking for a valid number until the user inputs it.
+85. Write a program using `for` and `try-except` to read multiple files and handle file not found errors.
+
+###
+
+ Real-World Scenarios
+
+86. Write a program to check if a given year is a leap year using `if-else`.
+87. Write a program to find the factorial of a number using a `while` loop.
+88. Write a program to calculate the sum of digits of a number using a `while` loop.
+89. Write a program to reverse a string using a `for` loop.
+90. Write a program to count the frequency of each character in a string using a `for` loop.
+
+### Complex Tasks
+
+91. Write a program to print the Fibonacci sequence up to `n` terms using `while` and `if`.
+92. Write a program to find the largest element in a list using a `for` loop.
+93. Write a program to remove duplicates from a list using a `for` loop.
+94. Write a program to merge two dictionaries using a `for` loop.
+95. Write a program to find the common elements in two lists using a nested `for` loop.
+
+### Data Handling
+
+96. Write a program to read integers from a file and print their sum using `try-except`.
+97. Write a program to write a list of strings to a file using `try-except`.
+98. Write a program to handle multiple exceptions (e.g., division by zero and invalid input) using `try-except`.
+99. Write a program to read a CSV file and print its contents using `for` loop.
+100. Write a program to calculate the average of numbers in a list and handle empty list exception using `try-except`.
+
